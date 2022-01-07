@@ -26,3 +26,5 @@ Letmeak é uma aplicação desenvolvida durante a NLW-06 através da Rocketseat.
   <li>Página para visualizar todas as salas (abertas e encerradas).</li>
   <li>Perguntas ordenadas por criação (DESC).</li>
 </ul>
+
+Clique aqui para <a href="https://letmeask-60888.web.app/" target="_blank">visualizar a aplicação</a>.
