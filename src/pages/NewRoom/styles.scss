@@ -1,0 +1,26 @@
+#page-new-room {display: flex; align-items: stretch; height: 100vh;}
+
+#page-new-room aside {flex: 7; background: var(--color-1); color: #FFF; display: flex; flex-direction: column; justify-content: center; padding: 120px 80px;}
+#page-new-room aside img {max-width: 320px;}
+#page-new-room aside strong {font: 700 36px 'Poppins', sans-serif; line-height: 42px; margin-top: 16px;}
+#page-new-room aside p {font-size: 24px; line-height: 32px; margin-top: 16px; color: #f8f8f8;}
+
+#page-new-room main {flex: 8; padding: 0 32px; display: flex; align-items: center; justify-content: center;}
+#page-new-room main .main-content {display: flex; flex-direction: column; width: 100%; max-width: 320px; align-items: stretch; text-align: center;}
+#page-new-room main .main-content img {align-self: center;}
+
+#page-new-room main .main-content h2 {font-size: 24px; margin: 64px 0 24px; font-family: 'Poppins', sans-serif;}
+
+#page-new-room main .main-content form input,
+#page-new-room main .main-content form button {width: 100%;}
+#page-new-room main .main-content form input {height: 50px; border-radius: 8px; padding: 0 16px; background: #FFF; border: 1px solid #a8a8b3; }
+#page-new-room main .main-content form button {margin-top: 16px;}
+
+#page-new-room main .main-content p {font-size: 14px; color: #737380; margin-top: 16px;}
+#page-new-room main .main-content p a {color: var(--color-5);}
+
+@media (max-width: 800px) {    
+    #page-new-room {height: 100%;}
+    #page-new-room main {padding: 2rem 0rem;}
+    #page-new-room aside {display: none;}
+}

@@ -1,0 +1,14 @@
+* {margin: 0; padding: 0; box-sizing: border-box;}
+body {background: #f8f8f8; color: var(--text-color);}
+body, input, button, textarea {font: 400 16px 'Roboto', sans-serif; outline: none;}
+
+// VARIÁVEIS
+:root {
+    --color-1: #08826b;
+    // --color-2: #088f75;
+    // --color-3: #099c80;
+    --color-4: #0aa98b;
+    --color-5: #0bb695;
+    --color-6: #f3f9f8;
+    --text-color: #29292e;
+}

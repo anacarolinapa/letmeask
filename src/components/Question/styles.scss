@@ -1,0 +1,26 @@
+.question {background: #fefefe; border-radius: 8px; box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04); padding: 24px; transition: 0.5s;}
+.question:hover {box-shadow: 0 10px 20px rgba(0, 0, 0, 0.06);}
+
+.question + .question {margin-top: 8px;}
+
+.question p {color: var(--text-color);}
+
+.question.highlighted {background: var(--color-6); border: 1px solid var(--color-1);}
+.question.highlighted .footer .user-info span {color: var(--text-color);}
+
+.question.answered {background: #dbdcdd;}
+.question.answered .footer .user-info img {opacity: 0.5;}
+
+.question .footer {display: flex; justify-content:space-between; align-items: center; margin-top: 24px;}
+
+.question .footer .user-info {display: flex; align-items: center;}
+.question .footer .user-info img {border-radius: 50%; width: 32px; height: 32px;}
+.question .footer .user-info span {margin-left: 8px; color: #737380; font-size: 14px;}
+
+.question .footer div {display: flex; gap: 15px;}
+
+.question .footer button {border: 0; background: transparent; cursor: pointer;}
+.question .footer button.like-button {display: flex; align-items: end; color: #737380; gap: 8px; transition: filter 0.2s;}
+.question .footer button.liked {color: var(--color-1);}
+.question .footer button.liked svg path {stroke: var(--color-1);}
+.question .footer button.like-button:hover {filter: brightness(0.7);}

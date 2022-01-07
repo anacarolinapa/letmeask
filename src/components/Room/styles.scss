@@ -1,0 +1,6 @@
+.room-link {text-decoration: none; display: block;}
+.room-link:hover .room {filter: brightness(0.9);}
+.room-link + .room-link {margin-top: 8px;}
+.room-link .room {background: var(--color-1); border-radius: 8px; box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04); padding: 24px; cursor: pointer; transition: 0.5s;}
+.room-link .room span {color: #FFF; font-family: 'Poppins', sans-serif;}
+.room-link .room.ended {opacity: 0.5; cursor: no-drop;}

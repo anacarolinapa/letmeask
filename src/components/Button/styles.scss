@@ -1,0 +1,5 @@
+.button {height: 50px; border-radius: 8px; font-weight: 500; background: var(--color-1); color: #FFF; display: flex; align-items: center; justify-content: center; cursor: pointer; border: 0; transition: filter 0.2s; padding: 0 32px;}
+.button.outlined {background: #FFF; border: 1px solid var(--color-1); color: var(--color-1);}
+.button:not(:disabled):hover {filter: brightness(0.9);}
+.button:disabled {opacity: 0.6; cursor: not-allowed;}
+.button img {margin-right: 8px;}

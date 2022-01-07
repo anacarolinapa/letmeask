@@ -1,0 +1,7 @@
+#modal {background: rgba(0, 0, 0, 0.85); position: fixed; width: 100%; height: 100%; display: flex; justify-content: center; align-items: center; transition: all 0.3s ease-in-out;}
+#modal .modal-content {background: #F8F8F8; border-radius: 8px; padding: 5%; text-align: center;}
+#modal .modal-content h1 {color: #29292E; font-weight: bold; font-size: 24px; font-family: 'Poppins', sans-serif; margin: 10px 0px;}
+#modal .modal-content p {color: #737380; font-size: 16px; margin: 5px 0px;}
+#modal .modal-content .area-buttons {margin-top: 30px; display: flex; gap: 8px; justify-content: center; align-items: center;}
+#modal .modal-content .area-buttons button:nth-child(odd) {background: #DBDCDD; color: #737380;}
+#modal .modal-content .area-buttons button:nth-child(even) {background: var(--color-4);}
